@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@100,300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Teko:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(/images/header-bg.jpg);
+    background-position: center; 
+    font-size: 18px;  
+}
+
+
+.row {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    float: right;
+    margin-top: 60px;
+    align-items: center;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 2px solid #bf55ec;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 500;
+}
+
+.nav-menu li{
+  display: inline-block;
+  align-items: center;
+  padding: 20px 16px; 
+}
+
+.nav-menu li a:hover,
+:focus {
+    border-bottom: 2px solid #bf55ec;
+}
+
+.main-content-header {
+   max-width: 100%;
+   position: absolute;
+   /*border: 2px solid;*/
+   top: 60%;
+   left: 50%;
+   transform: translate(-90%, -80%);
+}
+   
+h1 {
+    font-family: 'Flamenco', cursive;
+    font-weight: 500;
+    color: white;
+    font-size: 200%;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}  
+
+.btn{
+   display:inline-block;
+   padding: 12px 18px;
+   font-weight: lighter;
+   text-transform: uppercase;
+   border-radius: 200px;
+   transition: backgound-color 0.2s, border 0.2s, color 0.2;
+   font-family: 'Flamenco', cursive;
+   font-weight: 700;
+   font-size: 100%;
+}
+
+.btn-full {
+    background-color: transparent;
+    color:#bf55ec;
+    margin-right: 15px;
+    border: 1px solid #bf55ec;
+}
+
+.btn-full:hover{
+   background-color: #fff;
+}
+
+.btn-nav {
+    background-color: transparent;
+    color : #fff;
+    border: 1px solid #fff;   
+}
+
+.btn-nav:hover{
+    background-color: #bf55ec;
+}
+
+.colorchange {
+    animation: colorchangea 1s infinite;
+}  
+
+@keyframes colorchangea{
+    0%{color: #fff}
+    25%{color: #bf55ec}
+    50%{color: #fff;}
+    100%{color: #bf55ec;}
+}
+
+/*------   Bottom ------*/
+

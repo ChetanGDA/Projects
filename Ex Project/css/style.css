@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/*------------Global Styling-----*/
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*------------Global Styling-----*/
+
+/*------------Header-------------*/
+
+header {
+}
+
+.container{
+  padding: 25px 25px;
+}
+
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar {
+   display: flex;
+   margin: 2px 50px;
+}
+
+.navbar a{
+  padding: 10px;
+  color: hsl(229, 8%, 60%);
+  font-weight: 300;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+}
+
+.btn-sp {
+  padding: 0px 5px;
+  background-color: hsl(0, 94%, 66%);
+  border: 0px;
+  border-radius: 8px;
+  padding: 0px 20px;
+  color: white;
+}
+
+.btn-sp:hover{
+  border: 1px solid hsl(0, 94%, 66%);
+  background-color: white;
+  color: hsl(0, 94%, 66%);
+  opacity: 1;
+}
+
+/*------------Header-------------*/
